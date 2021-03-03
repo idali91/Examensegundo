@@ -1,0 +1,89 @@
+body{
+    background-color: rgba(164, 206, 245, 0.904);
+}
+
+h1{
+    color: rgb(255, 217, 0);
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    font-style: inherit;
+}
+
+a[href="index.html" ]{
+    color: rgb(255, 217, 0);
+}
+
+/* Posicion Alicante  */
+
+img.Alicante{
+   position: relative;
+   left: 200px;
+    
+}
+
+section.Alicante{
+    background-color: red;
+}
+
+/* Posicion valencia */
+
+
+img.Valencia{
+    position: relative;
+    left: 400px;
+    
+    
+}
+
+section.Valencia{
+    background-color: sandybrown;
+}
+/* posicion castellon */
+
+img.Castellon{
+    position: relative;
+    left: 600px;
+    
+    
+}
+
+section.Castellon{
+    background-color: pink;
+}
+div.web{
+    background-color: white;
+    color: blue;
+    text-align: center;
+
+
+}
+
+span.idali{
+    color: crimson;
+}
+
+
+section.ciudad{
+    background-color: white;
+    color: blue;
+}
+
+section.ident{
+    background-color: coral;
+    float: left;
+    width: 30vmax;
+    height: 10vmax;
+    
+
+}
+
+div.texto{
+    background-color: blue;
+    color: white;
+    text-decoration: underline;
+
+}
+
+div.borrar{
+    clear: both;
+}

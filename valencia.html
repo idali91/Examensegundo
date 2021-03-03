@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2ª evaluación</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+<body>
+    <hr>
+    <h1 class="Comunidad"><a href="index.html" class="valencia">Comunidad Valenciana</a></h1>
+    <hr>
+
+    <section class="ciudad">
+        <p>Introduce la ciudad mas bonita de la Comunidad Valenciana</p>
+
+        <form action="resultados.php" method="POST">
+        Ciudad <input type="text" name="ciudad" id="ciudad" onblur="mifuncion()">
+
+        </form>
+
+    </section>
+
+    <section class="ident"> 
+        <br>
+        
+        <form action="resultados.php" method="POST">
+        Nombre
+        <input type="text" name="ciudad" id="nombre">
+        <br>
+        <br>
+        Año de nacimiento <input type="date" id="date">
+        <br>
+        <br>
+        Sexo <input type="radio" id="hombre"> Hombre    <input type="radio" id="mujer">Mujer
+        <br>
+
+        <input type="submit" value="Enviar">  <input type="resert" value="Borrar">
+        <br>
+        </form>
+    </section>
+
+    <section >
+        <div class="texto">La comunidad Valenciana(en valenciano y oficialmente, Comunitat Valenciana) 
+            Es una comunidad autonoma española situada en el Este de la peninsula Iberica
+            Se constituyo formalmente en el año 1982, al aprobarse su estatuto de Autonomia,
+            y desde el año 2006 es considerada nacionalidad historica, al amparo de lo dispuesto en el 
+            artitulo segundo de la constitucion.
+        </div>
+    </section>
+
+<div class="borrar"></div>
+<br>
+<br>
+    <footer>
+        <div class="web"> Web desarollada por <span class="idali">Idali Leon</span> </div>
+    </footer>
+
+    <script>
+        function mifuncion(){
+            var ciudad = document.getElementById("ciudad").value;
+            alert("Has elegido la ciudad de " + ' ' + ciudad)
+        }
+
+    </script>
+
+</body>
+</html>
